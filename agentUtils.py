@@ -1,11 +1,6 @@
-
-class AgentUtils:
-
-    def indexError(self):
-        tmp_list = [1,2,3]
-        print(tmp_list[5])
+import string_util
 
 
 if __name__ == '__main__':
-    agentUtils = AgentUtils()
-    agentUtils.indexError()
+    count = string_util.find_str(None, '123')
+    print(count)
